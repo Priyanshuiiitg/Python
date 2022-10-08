@@ -46,7 +46,7 @@ j++;
       }
 
     }
-  
+
    for(int i=0;i<x.size();i++)
    {
     v[e+i]=x[i];
@@ -61,7 +61,7 @@ void mergesort(vi &v,int l,int h)
         int b=(a+l)/2;
         int c=(a+h)/2;
 
-       
+
         mergesort(v,l,b);
         mergesort(v,b+1,a);
         mergesort(v,a+1,c);
